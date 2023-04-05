@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 
 Route::get('/index', [TODO_Controller::class, 'index']);
+Route::post('/save_task', [TODO_Controller::class, 'save_task'])->name("save_task");
